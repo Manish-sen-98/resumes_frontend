@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FileText, UploadCloud, Download, Loader2, CheckCircle2, AlertCircle } from 'lucide-react';
 import { uploadFiles, downloadCSV } from './api';
-import './app.css'; // Make sure this imports your CSS file!
+import './App.css'; // Make sure this imports your CSS file!
 
 function App() {
   const [resumes, setResumes] = useState([]);
